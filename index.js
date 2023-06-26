@@ -7,12 +7,8 @@ function unhide_results(){
     }
 }
 function unhide_detailed(){
-    if (document.getElementById('rent_input').value.length > 1 && document.getElementById('bills_input').value.length > 1) {
-        document.getElementById('div_detailed').style.visibility = 'visible';
-        detailedMath();
-    } else {
-        document.getElementById('div_detailed').style.visibility = 'hidden';
-    }
+    document.getElementById('div_detailed').style.visibility = 'visible';
+    detailedMath();
 }
 
 function initialMath (){
