@@ -1,0 +1,18 @@
+div.results {
+    visibility: hidden;
+}
+
+div.detailed {
+    visibility: hidden;
+}
+
+body {
+    background-color: rgb(229, 234, 201);
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: 2px solid;
+}
